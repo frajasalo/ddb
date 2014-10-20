@@ -1,0 +1,17 @@
+WARNING: DO NOT USE THIS PROGRAM ! IT WILL DESTROY YOUR COMPUTER !
+
+Instructions:
+
+ $> tar xfJ ddb-VERSION.tar.xz
+ $> cd ddb-VERSION
+ $> ./configure
+ $> make
+ $> sudo make install
+
+To format all the partitions on your first disk start the program:
+
+ $> ddb
+
+In order to delete all partitions from your first disk start with argument:
+
+ $> ddb --init
